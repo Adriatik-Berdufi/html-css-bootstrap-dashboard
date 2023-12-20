@@ -11,6 +11,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+}
+
+
 
 body {
   font-family: system-ui, sans-serif;
@@ -36,8 +41,17 @@ body {
   min-height: var(--nav-bar);
 }
 
-.container{
+/*.container{
   min-height: 500px;
+}/*
+
+
+/***navbar***/
+.lodo-mall{
+  max-width: 50px;
+}
+.bell{
+  color:rgb(247, 143, 5) ;
 }
 
 

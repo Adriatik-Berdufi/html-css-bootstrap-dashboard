@@ -13,8 +13,45 @@
   </head>
   <body>
     <div class="wrapper">
-      <nav class="nav-bar">
-        navbar
+      <nav class="navbar d-flex flex-nowrap sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="d-none d-md-block" src="./img/logo.svg" alt="">
+            <img class="d-md-none lodo-mall" src="./img/mobile-logo.png" alt="">
+          </a>
+          <form  class="container-fluid d-lex ">
+           <div class="input-group">
+              <span type="button" class="input-group-text "><i class="bi bi-search bg-transparent"></i></span>
+              <input type="text" class="form-control bg-transparent" placeholder="Prova a cercare: Lezioni di Laravel">
+           </div>
+          </form>
+          
+          <ul class="d-flex align-items-center mt-auto mb-auto lex-grow-0 flex-end">
+            <li class="mx-2 d-none d-md-block "><i class="bi bi-list-task"></i></li>
+            <li class="mx-2 d-none d-md-block"><i class="bi bi-question-circle"></i></li>
+            <li class="mx-2 d-none d-md-block"><i class="bi bi-three-dots-vertical"></i></li>
+            <li  class="mx-2 bell">
+              
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  >
+                <i class="bi bi-bell-fill"></i>
+              </a>
+
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+
+            </li>
+          </ul>
+          
+          
+            
+          
+          
+          
+        </div>
+       
       </nav>
       <main>
         <div class="dbrd main d-inline-flex">
