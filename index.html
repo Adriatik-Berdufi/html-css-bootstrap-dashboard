@@ -13,7 +13,9 @@
   </head>
   <body>
     <div class="wrapper">
-      <nav class="navbar d-flex flex-nowrap sticky-top bg-body-tertiary">
+
+      <!-- NavBar -->
+      <nav class="navbar nav-bar d-flex flex-nowrap sticky-top bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img class="d-none d-md-block" src="./img/logo.svg" alt="">
@@ -53,17 +55,33 @@
         </div>
        
       </nav>
+      <!-- End NavBar -->
+
       <main>
-        <div class="dbrd main d-inline-flex">
-          <div class="dbrd sidebar d-flex flex-column p-3">
+        <!-- SideBar -->
+        <div class=" main d-inline-flex">
+          <div class=" sidebar d-flex flex-column p-3">
             <div>
-              <div></i></div>
-              <div>Home</div>
+              <i class="bi bi-house-door-fill"></i>
+              <span class="d-none d-lg-inline">Home</span>
+              
             </div>
-            <div>status</div>
-            <div class="flex-grow-1">signals</div>
-            <div>admin</div>
+            <div>
+              <i class="bi bi-bar-chart-fill"></i>
+              <span class="d-none d-lg-inline" >Stats</span>
+            </div>
+            <div class="flex-grow-1">
+              <i class="bi bi-reception-4"></i>
+              <span class="d-none d-lg-inline">Signals</span>
+            </div>
+            <div>
+              <i class="bi bi-gear-fill"></i>
+              <span class="d-none d-lg-inline">Admin</span>
+            </div>
           </div>
+         <!-- End SideBar -->
+
+          <!-- Content -->
           <div class="dbrd content">
             <header class="header">header</header>
             <div class="dbrd container">
@@ -73,6 +91,9 @@
               </div>
             </div>
           </div>
+          <!-- End Content -->
+
+
         </div>
         
       </main>
