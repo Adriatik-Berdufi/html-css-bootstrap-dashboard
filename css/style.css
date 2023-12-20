@@ -1,0 +1,66 @@
+:root {
+  --header-height: 90px; 
+  --side-width: 150px
+}
+
+/** Reset **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+
+
+/** Utils **/
+
+
+
+
+
+/** Debug **/
+.dbrd{
+  border: 2px dashed black;
+}
+
+
+
+
+/** HEADER **/
+.header {
+  min-height: var(--header-height);
+  /*Debug*/
+  background-color: rgb(251, 133, 91);
+}
+
+
+
+/** MAIN **/
+main{
+  
+  /*Debug*/
+  background-color: #888;
+}
+.sidebar{
+  min-height: calc(100vh - var(--header-height));
+  width: var(--side-width);
+  background-color: 11111;
+}
+.content{
+  min-height: calc(100vh - var(--header-height));
+  width: calc(100vw - var(--side-width));
+}
+
+
+
+
+
+/** FOOTER **/
+.footer {
+  min-height: var(--footer-height);
+  background-color: goldenrod;
+}
