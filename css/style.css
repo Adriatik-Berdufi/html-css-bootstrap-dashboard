@@ -1,6 +1,8 @@
 :root {
+  --nav-bar:60px;
   --header-height: 90px; 
-  --side-width: 150px
+  --side-width: 150px;
+
 }
 
 /** Reset **/
@@ -26,16 +28,18 @@ body {
 .dbrd{
   border: 2px dashed black;
 }
-
-
-
-
-/** HEADER **/
-.header {
-  min-height: var(--header-height);
-  /*Debug*/
-  background-color: rgb(251, 133, 91);
+.dh{
+  min-height: 200px;
 }
+
+.nav-bar{
+  min-height: var(--nav-bar);
+}
+
+.container{
+  min-height: 500px;
+}
+
 
 
 
@@ -46,15 +50,20 @@ main{
   background-color: #888;
 }
 .sidebar{
-  min-height: calc(100vh - var(--header-height));
+  min-height: calc(100vh - var(--nav-bar));
   width: var(--side-width);
   background-color: 11111;
 }
 .content{
-  min-height: calc(100vh - var(--header-height));
+  min-height: calc(100vh - var(--nav-bar));
   width: calc(100vw - var(--side-width));
 }
-
+/** HEADER **/
+.header {
+  min-height: var(--header-height);
+  /*Debug*/
+  background-color: rgb(251, 133, 91);
+}
 
 
 
