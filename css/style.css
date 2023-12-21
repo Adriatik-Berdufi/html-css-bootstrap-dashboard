@@ -2,7 +2,7 @@
   --nav-bar:60px;
   --header-height: 90px; 
   --side-width: 80px;
-
+  --side-width-l:160px;
 }
 
 /** Reset **/
@@ -87,16 +87,20 @@ main{
 
 .content{
   min-height: calc(100vh - var(--nav-bar));
-  max-width: calc(100vw - var(--side-width));
+  width: calc(100vw - var(--side-width));
 }
 
 /** HEADER **/
 .header {
   min-height: var(--header-height);
   /*Debug*/
-  background-color: rgb(251, 133, 91);
+  background-color: rgb(47, 114, 233);
 }
 
+/**main**/
+.border-bottom{
+  border: rgba(0, 0, 0, .5);
+}
 
 
 
@@ -113,11 +117,14 @@ main{
 /****************** Media *********************/
 @media all and (min-width:992px) {
   .sidebar{
-    width: 160px;
+    width: var(--side-width-l);
     font-size: 1.1rem;
   }
   .sidebar > div {
     margin: 0;
+  }
+  .content{
+    width: calc(100vw - var(--side-width-l));
   }
   
 }
