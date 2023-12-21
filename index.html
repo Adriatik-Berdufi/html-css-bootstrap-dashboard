@@ -84,7 +84,7 @@
                 <!-- End SideBar -->
 
                 <!-- Content -->
-                <div class="dbrd content">
+                <div class="content">
                       <!-- header -->
 
                       
@@ -93,15 +93,7 @@
                       <div class="order-sm-3">
                         <div class="add-user">
                           <span class="me-3">Nuovo Studente</span>
-                          <button class="btn btn-primary p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"><i class="bi bi-plus-square fs-2"></i></button>
-                          <div class="offcanvas offcanvas-end offcanvas-width" tabindex="-1" id="offcanvasRight">
-                            <div class="offcanvas-header">
-                              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                    
-                            </div>
-                            <div class="offcanvas-body">
-                              ...
-                            </div>
+                          <button class="btn btn-primary p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"><i class="bi bi-plus-square fs-2"></i></button>                                     
                         </div>
                       </div>
                       <!--END add new use-->
@@ -144,17 +136,85 @@
                         <div>Studenti online negli ultimi 30 minuti</div>
                         <div class="display-6">130</div>
                       </div>
-                      
 
+
+                      <!-- Canvas -->
+                      <div class="offcanvas offcanvas-end special" tabindex="-1" id="offcanvasRight">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuvo studente</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                
+                        </div>
+                        <div class="offcanvas-body">
+                          <form action="https://learning.tizianonicolai.com/request-catcher/index.php" method="POST">
+                            <!-- nome e cognome-->
+                            <div class="row mb-3">
+                              <div class="col">
+                                <label for="name" class="form-label">Nome</label>
+                                <input type="text" name="nome" id="name" class="form-control" placeholder="First name">
+                              </div>
+                              <div class="col">
+                                <label for="last-name" class="form-label">Cognome</label>
+                                <input type="text" class="form-control" name="cognome" id="last-name" placeholder="Last name">
+                              </div>
+                            </div>
+                            <!-- mail e pass-->
+                            <div class="row mb-3">
+                              <div class="col">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="email">
+                              </div>
+                              <div class="col">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="pass" placeholder="password">
+                              </div>
+                            </div>
+                            <!-- indirizzo -->
+                            <div class="mb-3">
+                              <label for="indirizzo" class="form-label">Indirizzo</label>
+                              <input type="text" id="indirizzo" name="indirizzo" class="form-control" placeholder="indirizzo">
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                  <label for="citta" class="form-label">Citta</label>
+                                  <input type="text" id="citta" name="citta" class="form-control" placeholder="citta">
+                                </div>
+                                <div class="col-4">stato</div>
+                                <div class="col-2">
+                                  <label for="cap" class="form-label">Cap</label>
+                                  <input type="text" id="cap" name="cap" class="form-control">
+                                </div>
+                              
+                            <div class="mb-3">
+                              <label for="formFile" class="form-label">Foto</label>
+                              <input class="form-control" type="file" id="formFile" name="foto-file" >
+                            </div>
+
+                              <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  seleziona per proseguire
+                                </label>
+                              
+                              </div>
+                              <div class="mb3">
+                                <button class="btn btn-primary" type="submit">Send</button>
+                                <button class="btn btn-warning" type="reset">Reset</button> 
+                              </div>
+                             
+                            </div>
+                          </form>
+                      </div>
+                     </div>   
                     </header>
                       <!--End header -->
 
                       <!-- main -->
-                    <div class="dbrd container container-lg">
+                    <div class="container container-lg">
 
                       <div class="row">
                           <!-- column-left -->
-                        <div class="dbrd dh col-md-8">
+                        <div class="col-md-8">
                             <!-- table -->
                           <div class="card my-5">
                             <div class="border-bottom border-secondary p-4 fs-4">Prossime calssi</div>
@@ -368,7 +428,7 @@
                           </div>
                         </div>
                           <!-- column-right -->
-                        <div class="dbrd dh col-md-4">
+                        <div class="col-md-4">
                             <!-- trodo -->
                           <div class="card my-5">
                             <div class=" ps-2 py-4 border-bottom border-secondary fs-4">Todo</div>
@@ -424,7 +484,7 @@
 
                     </div>
                       <!-- End main -->
-              </div>
+              
                 <!-- End Content -->
 
 
