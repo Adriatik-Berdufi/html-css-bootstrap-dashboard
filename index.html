@@ -14,125 +14,352 @@
   <body>
     <div class="wrapper">
 
-      <!-- NavBar -->
-      <nav class="navbar nav-bar d-flex flex-nowrap sticky-top bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img class="d-none d-md-block" src="./img/logo.svg" alt="">
-            <img class="d-md-none lodo-mall" src="./img/mobile-logo.png" alt="">
-          </a>
-          <form  class="container-fluid d-lex ">
-           <div class="input-group">
-              <span type="button" class="input-group-text "><i class="bi bi-search bg-transparent"></i></span>
-              <input type="text" class="form-control bg-transparent" placeholder="Prova a cercare: Lezioni di Laravel">
-           </div>
-          </form>
-          
-          <ul class="d-flex align-items-center mt-auto mb-auto lex-grow-0 flex-end">
-            <li class="mx-2 d-none d-md-block "><i class="bi bi-list-task"></i></li>
-            <li class="mx-2 d-none d-md-block"><i class="bi bi-question-circle"></i></li>
-            <li class="mx-2 d-none d-md-block"><i class="bi bi-three-dots-vertical"></i></li>
-            <li  class="mx-2 bell">
-              
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  >
-                <i class="bi bi-bell-fill"></i>
-              </a>
-
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-
-            </li>
-          </ul>
-          
-          
+        <!-- NavBar -->
+        <nav class="navbar nav-bar d-flex flex-nowrap sticky-top bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img class="d-none d-md-block" src="./img/logo.svg" alt="">
+              <img class="d-md-none lodo-mall" src="./img/mobile-logo.png" alt="">
+            </a>
+            <form  class="container-fluid d-lex ">
+            <div class="input-group">
+                <div class="input-group-text "><i class="bi bi-search bg-transparent"></i></div>
+                <input type="text" class="form-control bg-transparent" placeholder="Prova a cercare: Lezioni di Laravel">
+            </div>
+            </form>
             
-          
-          
-          
-        </div>
-       
-      </nav>
-      <!-- End NavBar -->
+            <ul class="d-flex align-items-center mt-auto mb-auto lex-grow-0 flex-end">
+              <li class="mx-2 d-none d-md-block "><i class="bi bi-list-task"></i></li>
+              <li class="mx-2 d-none d-md-block"><i class="bi bi-question-circle"></i></li>
+              <li class="mx-2 d-none d-md-block"><i class="bi bi-three-dots-vertical"></i></li>
+              <li  class="mx-2 bell nav-item dropdown  ">
+                
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  >
+                  <i class="bi bi-bell-fill"></i>
+                </a>
 
-      <main>
-        
-        <div class=" main d-inline-flex">
+                <ul class="dropdown-menu dropdown-left">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
 
-          <!-- SideBar -->
-          <div class=" sidebar d-flex flex-column p-3">
-            <div>
-              <i class="bi bi-house-door-fill"></i>
-              <span class="d-none d-lg-inline">Home</span>
+              </li>
+            </ul>
+            
+            
               
-            </div>
-            <div>
-              <i class="bi bi-bar-chart-fill"></i>
-              <span class="d-none d-lg-inline" >Stats</span>
-            </div>
-            <div class="flex-grow-1">
-              <i class="bi bi-reception-4"></i>
-              <span class="d-none d-lg-inline">Signals</span>
-            </div>
-            <div>
-              <i class="bi bi-gear-fill"></i>
-              <span class="d-none d-lg-inline">Admin</span>
-            </div>
+            
+            
+            
           </div>
-          <!-- End SideBar -->
-
-          <!-- Content -->
-          <div class="dbrd content">
-               <!-- header -->
-            <header class="header text-center d-md-flex  align-items-md-center justify-content-md-between">
-              <div>left</div>
-              <div>center</div>
-              <div>right</div>
-
-            </header>
-              <!--End header -->
-
-              <!-- main -->
-            <div class="dbrd container container-lg">
-
-              <div class="row">
-                <div class="dbrd dh col-md-8">
-                  <div class="card">
-                    <div class="border-bottom border-secondary">prossime calssi</div>
-                    <div class="">
-                      <div class="table">table</div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="border-bottom border-secondary">faq</div>
-                    <div class="accordion">according</div>
-                  </div>
-                </div>
-                <div class="dbrd dh col-md-4">
-                  <div class="card">
-                    <div class="border-bottom border-secondary">Todo</div>
-                    <div class="form-check">check list</div>
-                  </div>
-                  <div class="card">
-                    <div>img</div>
-                    <div class="border-bottom border-secondary">utimi attivi</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-              <!-- End main -->
-          </div>
-          <!-- End Content -->
-
-
-        </div>
         
-      </main>
+        </nav>
+        <!-- End NavBar -->
+
+        <main>
+          
+            <div class=" main d-inline-flex">
+
+                <!-- SideBar -->
+                <div class=" sidebar d-flex flex-column p-3">
+                  <div>
+                    <i class="bi bi-house-door-fill"></i>
+                    <span class="d-none d-lg-inline">Home</span>
+                    
+                  </div>
+                  <div>
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <span class="d-none d-lg-inline" >Stats</span>
+                  </div>
+                  <div class="flex-grow-1">
+                    <i class="bi bi-reception-4"></i>
+                    <span class="d-none d-lg-inline">Signals</span>
+                  </div>
+                  <div>
+                    <i class="bi bi-gear-fill"></i>
+                    <span class="d-none d-lg-inline">Admin</span>
+                  </div>
+                </div>
+                <!-- End SideBar -->
+
+                <!-- Content -->
+                <div class="dbrd content">
+                  <!-- header -->
+                    <header class="header text-center d-md-flex  align-items-md-center justify-content-md-between">
+                      <div>left</div>
+                      <div>center</div>
+                      <div>right</div>
+
+                    </header>
+                      <!--End header -->
+
+                      <!-- main -->
+                    <div class="dbrd container container-lg">
+
+                      <div class="row">
+                          <!-- column-left -->
+                        <div class="dbrd dh col-md-8">
+                            <!-- table -->
+                          <div class="card my-5">
+                            <div class="border-bottom border-secondary p-4 fs-4">Prossime calssi</div>
+                            <table class="table">
+                              <thead class="border-bottom border-secondary">
+                                <tr>
+                                  <th class="w-50">Nome</th>
+                                  <th class="d-none d-md-table-cell">Data inizio</th>
+                                  <th class="d-none d-md-table-cell">ROI</th>
+                                  <th>Stato</th>
+                                  <th>Azioni</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td>
+                                    <button type="button" class="btn btn-success btn-sm">Done</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td>
+                                    <button type="button" class="btn btn-success btn-sm">Done</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td>
+                                    <button type="button" class="btn btn-success btn-sm">Done</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td >
+                                    <button type="button" class="btn btn-danger btn-sm">failed</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td>
+                                    <button type="button" class="btn btn-warning btn-sm">process</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td>
+                                    <button type="button" class="btn btn-warning btn-sm">process</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td>
+                                    <button type="button" class="btn btn-success btn-sm">Done</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td>
+                                    <button type="button" class="btn btn-danger btn-sm">failed</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td>
+                                    <button type="button" class="btn btn-success btn-sm">Done</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td class="d-flex align-items-center">
+                                    <div class="icon-table"><i class="bi bi-code-slash"></i></div>
+                                    <span>classe 75</span>
+                                  </td>
+                                  <td class="d-none d-md-table-cell">15/02/2023</td>
+                                  <td class="d-none d-md-table-cell">20%</td>
+                                  <td>
+                                    <button type="button" class="btn btn-success btn-sm">Done</button>
+                                  </td>
+                                  <td class="d-flex gap-0 column-gap-2">
+                                    <button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-pencil-fill"></i></button><button type="button" class="btn btn-outline-dark btn-sm"><i class="bi bi-trash-fill"></i></button>
+                                  </td>
+                                </tr>
+
+                                
+                              </tbody>
+                            </table>
+                            
+                          </div>
+                            <!-- faq -->
+                          <div class="card my-5">
+                            <div class="border-bottom border-secondary p-4 fs-4">F.A.Q</div>
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Come aggiungere un nuovo studente?
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <span><strong>Questa e la miglior risposta.</strong><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure harum similique officia autem assumenda porro sequi ipsa corrupti quo mollitia sapiente distinctio accusantium, officiis laudantium architecto modi quod quibusdam consequuntur.</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Come posso accedere alle info del mio account?
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <span><strong>Questa e la miglior risposta.</strong><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure harum similique officia autem assumenda porro sequi ipsa corrupti quo mollitia sapiente distinctio accusantium, officiis laudantium architecto modi quod quibusdam consequuntur.</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Posso usare questa dashboard per mobile?
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <span><strong>Questa e la miglior risposta.</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut in ea ut numquam fuga alias quisquam, sapiente, ab fugiat vel eaque odio sint quo eligendi delectus possimus aliquid, voluptas doloremque!
+                                    Cumque sint molestias eum necessitatibus quo quod optio, eius, excepturi perferendis libero dolore quisquam vero perspiciatis recusandae amet maiores asperiores iure corrupti laborum repellendus ullam. Quo similique doloribus quod amet. </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                          <!-- column-right -->
+                        <div class="dbrd dh col-md-4">
+              
+                          <div class="card my-5">
+                            <div class="border-bottom border-secondary">Todo</div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" name="nuove_classi" id="nuove_classi">
+                              <label class="form-check-label" for="nuove_classi">
+                                Kickoff nuove classi
+                              </label> 
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" name="lezioni" id="lezioni">
+                              <label class="form-check-label" for="lezioni">
+                                lezioni su Bootstrap 5 in classe #75
+                              </label> 
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" name="controllo_github_user" id="controllo_github_user">
+                              <label class="form-check-label" for="controllo_github_user">
+                                Controllare username github studenti
+                              </label> 
+                            </div>
+                          </div>
+                          <div class="card my-5">
+                            <div>img</div>
+                            <div class="border-bottom border-secondary">utimi attivi</div>
+                          </div>
+                        
+                          
+                        </div>
+
+                        </div>
+                      
+                      </div>
+
+                    </div>
+                  <!-- End main -->
+              </div>
+              <!-- End Content -->
+
+
+            </div>
+            
+        </main>
     </div>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+  
   </body>
 </html>
