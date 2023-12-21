@@ -64,11 +64,7 @@ body {
 
 
 /** MAIN **/
-main{
-  
-  /*Debug*/
-  background-color: #888;
-}
+
 .sidebar{
   min-height: calc(100vh - var(--nav-bar));
   width: var(--side-width);
@@ -122,6 +118,9 @@ main{
   border-radius: 50%;
 }
 
+.stats-img > img{
+  max-width: 400px;
+}
 
 
 /** FOOTER **/
