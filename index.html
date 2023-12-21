@@ -87,15 +87,28 @@
                 <div class="dbrd content">
                       <!-- header -->
 
-                      <!-- Todo -->
+                      
                     <header class="header text-light d-md-flex py-3 px-3 justify-content-md-between ">
-                      <div>
-                        <div class="add-user"><span class="me-3">Nuovo Studente</span> <span><i class="bi bi-plus-square fs-2"></i></span></div>
+                      <!-- add new use-->
+                      <div class="order-sm-3">
+                        <div class="add-user">
+                          <span class="me-3">Nuovo Studente</span>
+                          <button class="btn btn-primary p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"><i class="bi bi-plus-square fs-2"></i></button>
+                          <div class="offcanvas offcanvas-end offcanvas-width" tabindex="-1" id="offcanvasRight">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                    
+                            </div>
+                            <div class="offcanvas-body">
+                              ...
+                            </div>
+                        </div>
                       </div>
+                      <!--END add new use-->
 
                       <div class="col-md-5 mb-2 boolean-header">
                         <div>
-                          <h2 class="d-inline-block">Boolean</h2>
+                          <h1 class="d-inline-block">Boolean</h1>
                           <span
                             class="badge rounded-pill"
                             >Piano baze</span
