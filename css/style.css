@@ -98,6 +98,12 @@ body {
   /*Debug*/
   background-color: rgb(47, 114, 233);
 }
+.add-user > i{
+  font-size: 50px;
+}
+.boolean-header > div > span {
+  background-color: rgb(36, 91, 186);
+}
 
 /**main**/
 .border-bottom{
