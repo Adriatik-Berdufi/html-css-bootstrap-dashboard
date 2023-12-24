@@ -90,8 +90,9 @@ body {
 
 
 .content{
-  min-height: calc(100vh - var(--nav-bar));
+  height: calc(100vh - var(--nav-bar));
   width: calc(100vw - var(--side-width));
+  overflow: scroll;
 }
 
 /** HEADER **/
